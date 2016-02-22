@@ -1,0 +1,13 @@
+<h1>Mostra os arquivos selecionados</h1>
+
+<p>
+  Title: <%= @article.title %>
+</p>
+
+<p>
+  Description: <%= @article.description %>
+</p>
+
+<p>
+<%= link_to "Editar este produto", edit_article_path(@article) %> |
+<%= link_to "Retornar a lista de produtos", articles_path %>
